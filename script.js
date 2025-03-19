@@ -13,7 +13,7 @@ class Animal {
 
 class Dog extends Animal {
 	constructor(species){
-		super(this.species)
+		super(species)
 	}
 	super.makeSound();
 	bark(){
@@ -23,7 +23,7 @@ class Dog extends Animal {
 
 class Cat extends Animal {
 	constructor(species){
-		super(this.species)
+		super(species)
 	}
 	super.makeSound();
 	purr(){
